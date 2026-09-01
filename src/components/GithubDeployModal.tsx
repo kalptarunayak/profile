@@ -160,13 +160,13 @@ jobs:
           </div>
 
           {/* Base URL tip for GitHub Pages */}
-          <div className="p-4 rounded-xl bg-blue-50 dark:bg-blue-950/40 border border-blue-200 dark:border-blue-900/60 text-xs space-y-1">
+          <div className="p-4 rounded-xl bg-blue-500/10 dark:bg-blue-950/40 border border-blue-500/20 dark:border-blue-900/60 text-xs space-y-1.5">
             <div className="font-bold text-blue-900 dark:text-blue-200 flex items-center gap-1.5">
-              <Globe className="w-4 h-4" />
-              Tip for Sub-directory Repositories (e.g. username.github.io/my-profile):
+              <Globe className="w-4 h-4 text-blue-600 dark:text-blue-400" />
+              <span>Configured for Sub-directory Deployments (e.g. <code className="font-mono text-blue-600 dark:text-blue-300">kalptarunayak.github.io/profile/</code>)</span>
             </div>
-            <p className="text-slate-600 dark:text-slate-300">
-              If your repository is not the root <code className="font-mono">username.github.io</code>, simply add <code className="font-mono font-bold bg-white dark:bg-slate-900 px-1 py-0.5 rounded">base: &apos;/my-repo-name/&apos;</code> to your <code className="font-mono">vite.config.ts</code> file before building.
+            <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
+              <code className="font-mono font-bold bg-white dark:bg-slate-900 px-1 py-0.5 rounded border border-slate-200 dark:border-slate-800">base: &apos;./&apos;</code> has been pre-configured in your <code className="font-mono">vite.config.ts</code> file. This ensures all JavaScript chunks, CSS stylesheets, and assets load seamlessly under your <code className="font-mono">/profile/</code> repository path without 404 blank screen issues.
             </p>
           </div>
         </div>

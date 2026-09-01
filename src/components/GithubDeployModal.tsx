@@ -26,7 +26,8 @@ npm run deploy`;
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, master ]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -51,10 +52,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       - name: Build
         run: npm run build
@@ -157,6 +157,19 @@ jobs:
               </button>
               <pre className="pt-2 text-[11px]">{ghPagesScript}</pre>
             </div>
+          </div>
+
+          {/* Critical Step: GitHub Repo Settings */}
+          <div className="p-4 rounded-xl bg-amber-500/10 dark:bg-amber-950/40 border border-amber-500/30 text-xs space-y-2">
+            <div className="font-bold text-amber-900 dark:text-amber-200 flex items-center gap-1.5">
+              <ExternalLink className="w-4 h-4 text-amber-600 dark:text-amber-400 shrink-0" />
+              <span>Crucial Setting in Your GitHub Repository:</span>
+            </div>
+            <ol className="list-decimal list-inside space-y-1 text-slate-700 dark:text-slate-300 leading-relaxed">
+              <li>Open your GitHub repository: <strong>Settings &rarr; Pages</strong></li>
+              <li>Under <strong>"Build and deployment" &rarr; "Source"</strong>, select <strong className="text-amber-700 dark:text-amber-300 font-mono bg-amber-100 dark:bg-amber-900/60 px-1.5 py-0.5 rounded">GitHub Actions</strong> (do not select "Deploy from a branch").</li>
+              <li>When you push your code, the included <code className="font-mono bg-slate-100 dark:bg-slate-800 px-1 py-0.5 rounded">.github/workflows/deploy.yml</code> will automatically build the Vite bundle into <code className="font-mono">dist/</code> and deploy it cleanly without 400/404 errors!</li>
+            </ol>
           </div>
 
           {/* Base URL tip for GitHub Pages */}

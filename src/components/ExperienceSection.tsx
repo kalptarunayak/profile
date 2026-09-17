@@ -21,7 +21,7 @@ export const ExperienceSection: React.FC = () => {
             Work Experience & Track Record
           </h2>
           <p className="mt-1 text-sm text-slate-600 dark:text-slate-400 max-w-2xl">
-            8+ continuous years delivering robust enterprise Java systems, integration backbones, and production-grade microservices for tier-1 global accounts.
+            12+ continuous years delivering robust enterprise Java systems, integration backbones, and production-grade microservices for tier-1 global accounts.
           </p>
         </div>
 

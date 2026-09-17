@@ -8,14 +8,14 @@ export const candidateProfile: ContactInfo = {
   location: 'India',
   github: 'https://github.com',
   linkedin: 'https://linkedin.com',
-  experienceYears: 8,
+  experienceYears: 12,
   summary:
-    'Results-driven Software Engineer with 8+ years of overall IT experience specialising in Java/J2EE enterprise application architectures, high-performance microservices, and asynchronous event integration. Proven track record designing, developing, and supporting distributed systems for global tier-1 clients across energy trading, insurance, enterprise publishing, warehouse execution (WES), and government sectors. Deep hands-on expertise in Spring Boot, Apache Camel (EAI patterns), Apache Kafka, Camunda BPM, and cloud-native containerized deployments (Kubernetes, Docker, Azure) backed by rigorous test-driven development (JUnit, Cucumber) and automated code-quality governance (SonarQube).',
+    'Results-driven Software Engineer with 12+ years of overall IT experience specialising in Java/J2EE enterprise application architectures, high-performance microservices, and asynchronous event integration. Proven track record designing, developing, and supporting distributed systems for global tier-1 clients across energy trading, insurance, enterprise publishing, warehouse execution (WES), and government sectors. Deep hands-on expertise in Spring Boot, Apache Camel (EAI patterns), Apache Kafka, Camunda BPM, and cloud-native containerized deployments (Kubernetes, Docker, Azure) backed by rigorous test-driven development (JUnit, Cucumber) and automated code-quality governance (SonarQube).',
 };
 
 export const executiveHighlights = [
   {
-    metric: '8+ Years',
+    metric: '12+ Years',
     label: 'Enterprise Java / J2EE Experience',
     subtext: 'Deep expertise in Spring Boot, Spring Integration & EAI Patterns',
   },

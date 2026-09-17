@@ -123,7 +123,7 @@ export const InterviewPitchMode: React.FC<InterviewPitchModeProps> = ({ isOpen, 
                   Structured 60-Second Presentation
                 </div>
                 <h3 className="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white">
-                  &quot;Hello, I am Kalpataru Nayak — Senior Java Developer with 8+ years building resilient microservices and integration pipelines.&quot;
+                  &quot;Hello, I am Kalpataru Nayak — Senior Java Developer with 12+ years building resilient microservices and integration pipelines.&quot;
                 </h3>
 
                 <div className="space-y-3 text-sm sm:text-base text-slate-700 dark:text-slate-300 leading-relaxed">
@@ -131,7 +131,7 @@ export const InterviewPitchMode: React.FC<InterviewPitchModeProps> = ({ isOpen, 
                     <strong>1. Core Specialization:</strong> I specialize in enterprise Java (Java 8 &amp; 17), Spring Boot microservices, and asynchronous Enterprise Application Integration (EAI) patterns utilizing Apache Camel, Apache Kafka, RabbitMQ, and Camunda BPM.
                   </p>
                   <p>
-                    <strong>2. Track Record:</strong> Over the past 8+ years with Cognizant and Tech Mahindra, I have led and delivered 5 mission-critical systems across Gas &amp; Power trading (Uniper), Insurance policy migrations (NIC), global ERP modernization (Oxford University Press), and high-speed automated warehouse routing (Honeywell).
+                    <strong>2. Track Record:</strong> Over the past 12+ years with Cognizant and Tech Mahindra, I have led and delivered 5 mission-critical systems across Gas &amp; Power trading (Uniper), Insurance policy migrations (NIC), global ERP modernization (Oxford University Press), and high-speed automated warehouse routing (Honeywell).
                   </p>
                   <p>
                     <strong>3. Architectural Philosophy:</strong> I prioritize zero-defect engineering through strict SonarQube quality gates, comprehensive test automation with JUnit and Cucumber BDD, and cloud-native containerized deployments on Azure Kubernetes Service.

@@ -172,7 +172,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenPitchMode }) => 
                     </span>
                   </div>
                   <p className="text-sm font-medium text-slate-800 dark:text-slate-200">
-                    &quot;I am a Senior Java Developer with 12+ years specializing in enterprise integration, Spring Boot microservices, and asynchronous event pipelines with Apache Camel and Kafka...&quot;
+                    &quot;I am a Senior Java Developer with 8+ years specializing in enterprise integration, Spring Boot microservices, and asynchronous event pipelines with Apache Camel and Kafka...&quot;
                   </p>
                 </div>
                 <button

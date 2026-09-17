@@ -82,7 +82,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 </div>
               </div>
               <p className="text-[10px] sm:text-xs text-slate-500 dark:text-slate-400 font-medium tracking-widest uppercase">
-                Senior Java & EAI Architect • 12+ Yrs Exp
+                Senior Java & EAI Architect • 8+ Year Exp
               </p>
             </div>
           </a>

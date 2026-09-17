@@ -74,7 +74,7 @@ export const SkillsSection: React.FC<SkillsSectionProps> = ({ onSelectProjectFil
               Core Technical Stack
             </h2>
             <p className="mt-1 text-sm text-slate-600 dark:text-slate-400 max-w-2xl">
-              Specialized across 12+ years in enterprise-grade Java backends, asynchronous messaging, EAI enterprise integration patterns, and cloud containerization.
+              Specialized across 8+ years in enterprise-grade Java backends, asynchronous messaging, EAI enterprise integration patterns, and cloud containerization.
             </p>
           </div>
 

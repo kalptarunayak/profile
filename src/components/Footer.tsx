@@ -58,10 +58,10 @@ export const Footer: React.FC = () => {
 
         {/* Sleek status bar */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 dark:text-slate-500 font-mono">
-          <p>© {new Date().getFullYear()} {candidateProfile.name} // Configured for GitHub Pages deployment</p>
+          <p>© {new Date().getFullYear()} To {candidateProfile.name} already reserved .</p>
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-            <span className="text-slate-600 dark:text-slate-300 font-semibold">Service Status: Optimal & Active</span>
+            <span className="text-slate-600 dark:text-slate-300 font-semibold">Profile Status: Optimal & Active</span>
           </div>
         </div>
       </div>
